@@ -20,8 +20,8 @@ class WP_Remove_Scaled_Images
     public function add_admin_page()
     {
         add_management_page(
-            'Remove -scaled Images',
-            'Remove -scaled Images',
+            'Remove Scaled Images',
+            'Remove Scaled Images',
             'manage_options',
             'remove-scaled-images',
             [$this, 'render_admin_page']
